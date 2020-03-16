@@ -31,3 +31,7 @@ body{
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.logo-img {
+  width: 120px;
+}
