@@ -14,7 +14,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from '@angular/forms';
+import { HeroesFindComponent } from './components/heroes-find/heroes-find.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {FormsModule} from "@angular/forms";
     HomeComponent,
     HeroesComponent,
     AboutComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroesFindComponent,
+    HeroeTarjetaComponent
   ],
     imports: [
         BrowserModule,

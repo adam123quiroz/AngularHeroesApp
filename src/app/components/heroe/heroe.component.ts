@@ -11,10 +11,10 @@ export class HeroeComponent implements OnInit {
   casas: string[] = ['https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1200px-MarvelLogo.svg.png',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/1200px-DC_Comics_logo.svg.png']
 
-  constructor( private activatedRouter: ActivatedRoute, private heroesService: HeroesService) {
+  constructor( private activatedRouter: ActivatedRoute, private heroesService: HeroesService ) {
     this.activatedRouter.params.subscribe( params => {
       this.heroe = this.heroesService.getHeroe(params.id);
-      console.log( this.heroe );
+      // console.log( this.heroe );
     } );
   }
 
